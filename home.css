@@ -1,0 +1,303 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap'); */
+
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif}
+    /* font-family: 'Zen Loop', cursive;
+  } */
+
+/* Home Page */
+    nav{
+
+      background-color: WhiteSmoke;
+      height: 60px;
+      text-align: right;
+      z-index: 1;
+      width: 100%;
+      }
+      .main-nav{
+          position: fixed;
+          margin-top: 0;
+      }
+
+      nav li{
+        width: 8%;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      nav ul{
+        white-space: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      nav li a{
+        text-decoration: none;
+        color: gray;
+      }
+      nav li a:hover{
+        text-decoration: underline;
+        color: Sienna;
+      }
+
+  
+  .manu{
+      width: 50px;
+      height: 6px;
+      background: black;
+      border-radius: 5px;
+  }
+  
+  .banner img{
+    position: relative;
+    width: 100%;
+    height: 50%;
+  }
+  .banner .portfolio{
+    color: DimGray;
+    position: absolute;
+    left:8%;
+    top: 30%
+  }
+  .banner h2{
+    font-size: 80px;
+  }
+  .banner h3{
+      color: white;
+      border: 2px;
+      background-color: gray;
+      padding: 15px 40px;
+      display: inline-block;
+      border-radius: 30px;
+  }
+  .banner h3:hover{
+    color: DimGray;
+    border: 2px solid DimGray;
+    background-color: white;
+  }
+  
+  .banner p{
+      color: grey;
+      font-size: 25px;
+      line-height: 43px;
+  }
+
+  /* Skill CSS */
+  .main2{
+    max-width: 100%;
+    width: 85%;
+    margin: 80px auto;
+    margin-top: 0%;
+    padding: 0 40px;
+    box-sizing: border-box;
+   
+  }
+
+  .main2 h4{
+        margin-bottom: 35px;
+        font-size: 45px;
+        color: DimGray;
+        padding: 20px;
+        padding-top: 6%;
+        padding-left: 5%;
+  }
+
+
+  .list{
+    max-width: 100%;
+    width: 100%;
+    margin:0;
+    padding: 80px;
+    padding-top: 0;
+    box-sizing: border-box;
+    
+  }
+  .list{
+    line-height: 2em;
+    color: dimgray;
+    font-size: 20px;
+}
+
+/* Image List */
+  .images{
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    white-space: nowrap;
+  
+  }
+
+  .images li{
+    display: inline-block;
+    width: 12%;
+  
+  }
+  .images li img{
+    max-width: 100%;
+    filter: grayscale(1);
+  }
+  .images li img:hover{
+    filter: grayscale(0);
+  }
+
+
+   /* Experince CSS */
+   .main2{
+    max-width: 100%;
+    width: 85%;
+    margin: 80px auto;
+    margin-top: 0%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+   
+  }
+
+  .main2 h4{
+        margin-bottom: 35px;
+        font-size: 45px;
+        color: DimGray;
+        padding: 20px;
+        padding-top: 6%;
+        padding-left: 5%;
+  }
+
+
+  .list{
+    max-width: 100%;
+    width: 100%;
+    margin:0;
+    padding: 80px;
+    padding-top: 0;
+    box-sizing: border-box;
+    
+  }
+  .list{
+    line-height: 2em;
+    color: dimgray;
+    font-size: 20px;
+}
+
+/* About CSS */
+.about{
+  max-width: 100%;
+  width: 85%;
+  margin: 80px auto;
+  margin-top: 0%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  
+}
+
+.about h1{
+      margin-bottom: 35px;
+      font-size: 45px;
+      color: DimGray;
+      padding: 20px;
+      padding-top: 6%;
+      padding-left: 5%;
+}
+
+.about p {
+  max-width: 100%;
+  width: 100%;
+  margin:0;
+  padding: 80px;
+  padding-top: 0;
+  box-sizing: border-box;
+  
+}
+.about p {
+  line-height: 2em;
+  color: dimgray;
+  font-size: 20px;
+}
+
+
+
+
+/* Education CSS */
+.education{
+  max-width: 100%;
+  width: 85%;
+  margin: 80px auto;
+  margin-top: 0%;
+  padding: 0 40px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  
+}
+
+.education h1{
+      margin-bottom: 35px;
+      font-size: 45px;
+      color: DimGray;
+      padding: 20px;
+      padding-top: 6%;
+      padding-left: 5%;
+}
+
+.education p {
+  max-width: 100%;
+  width: 100%;
+  margin:0;
+  padding: 80px;
+  padding-top: 0;
+  box-sizing: border-box;
+  
+}
+.education p {
+  line-height: 2em;
+  color: dimgray;
+  font-size: 20px;
+}
+
+.rbimages{
+  text-align: center;
+  margin: 50px;
+  white-space: nowrap;
+
+}
+.rbimages li{
+  display: inline-block;
+  width: 40%;
+  margin-left: 50px;
+}
+.rbimages li img{
+  max-width: 100%;
+}
+
+.tcimages{
+  text-align: center;
+  margin: 50px;
+  white-space: nowrap;
+
+}
+.tcimages li{
+  display: inline-block;
+  width: 40%;
+  margin-left: 50px;
+}
+.tcimages li img{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1262px){
+  .banner p{
+    
+    font-size: 20px;
+    line-height: 40px;
+}
+
+}
+
+/* .image-container img {
+  filter: grayscale(1);
+}
+
+.image-container:hover img{
+  filter: grayscale(0);
+} */
